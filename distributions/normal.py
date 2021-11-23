@@ -1,7 +1,8 @@
 from scipy import stats
 
+
 class normal:
-    
+
     def __init__(self, mu, sigma):
         self.mu = mu
         self.sigma = sigma
@@ -23,4 +24,4 @@ class normal:
 
     def __str__(self):
         return f"Normal Distribution\n" \
-            + f"E(X) = {self.mu}; V(X) = {self.sigma * self.sigma}"
+               + f"E(X) = {self.mu}; V(X) = {self.sigma * self.sigma}"
